@@ -5,7 +5,7 @@
 ## DSA Lab<br/>
 
 - ### Language: `c`<br/>
-- ### Path: Data Structures<br/>
+- ### Path: Data Structures/<br/>
 
   | Problem Statement                                                  | Code                                                                                                                                                                                                                            |
   | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,9 +17,20 @@
 ## OS Lab<br/>
 
 - ### Language: `c`<br/>
-- ### Path: Operating System<br/>
+- ### Path: Operating System/<br/>
 <!--
   | Problem Statement                                                  | Code                                                                   |
   | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
   | x              | x   |
   | x | x | -->
+
+## Algorithms (Self Learning)<br/>
+
+- ### Language: `c`<br/>
+- ### Path: Algorithms/<br/>
+
+  | Algorithm     | Code                                                                                                                                                        |
+  | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Binary Search | [Algorithms/BinarySearch.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Algorithms/BinarySearch.c) |
+
+<hr>
