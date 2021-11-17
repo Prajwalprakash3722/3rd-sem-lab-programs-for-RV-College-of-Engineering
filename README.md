@@ -19,7 +19,7 @@
 ## OS Lab<br/>
 
 - ### Language: `c`<br/>
-- ### Path: [Operating System/](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/tree/bd3007926e6e3cece19fec35207fdf4918197e0d/Operating%20System)<br/>
+- ### Path: [Operating System/](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/tree/master/Operating%20System)<br/>
 
   | Problem Statement                       | Code                                                                                                                                     |
   | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +30,7 @@
 
   <hr>
 
-## Algorithms (Self Learning)<br/>
+## Algorithms & Misc (Self Learning)<br/>
 
 - ### Language: `c`<br/>
 - ### Path: [Algorithms/](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/tree/bd3007926e6e3cece19fec35207fdf4918197e0d/Algorithms)<br/>
