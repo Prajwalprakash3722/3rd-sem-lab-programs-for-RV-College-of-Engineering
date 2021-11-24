@@ -21,12 +21,13 @@
 - ### Language: `c`<br/>
 - ### Path: [Operating System/](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/tree/master/Operating%20System)<br/>
 
-  | Problem Statement                       | Code                                                                                                                                     |
-  | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-  | Implement `ls-l` command using File API | [ls-l.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/ls-l.c) |
-  | Implement `cp` command using File API   | [co.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/cp.c)     |
-  | Implement `mv` command using File API   | [mv.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/mv.c)     |
-  | Implement `rm` command using File API   | [rm.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/rm.c)     |
+  | Problem Statement                            | Code                                                                                                                                                          |
+  | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Implement `ls-l` command using File API      | [ls-l.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/Expt-1/ls-l.c)               |
+  | Implement `cp` command using File API        | [cp.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/Expt-1/cp.c)                   |
+  | Implement `mv` command using File API        | [mv.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/Expt-1/mv.c)                   |
+  | Implement `rm` command using File API        | [rm.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/Expt-1/rm.c)                   |
+  | Implementing fork and Pid using system calls | [system_call.c](https://github.com/Prajwalprakash3722/3rd-sem-lab-programs-for-RV-College-of-Engineering/blob/master/Operating%20System/Expt-2/system_call.c) |
 
   <hr>
 
