@@ -99,7 +99,7 @@ int main()
     insert_end(start, 2);
     delete_begin(start);
     delete_end(start);
-    // insert_begin(start, 51);
+    insert_begin(start, 51);
     insert_end(start, 3);
     insert_end(start, 5);
 
