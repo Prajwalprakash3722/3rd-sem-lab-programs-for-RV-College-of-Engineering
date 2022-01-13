@@ -58,13 +58,20 @@ int main()
       root = Delete(root, x);
       break;
     case 4:
-      printf("\nPreOrder sequence:\n");
-      preorder(root);
-      printf("\n\nInOrder sequence:\n");
-      inorder(root);
-      printf("\n\nPostOrder sequence:\n");
-      postorder(root);
-      printf("\n");
+      if (root != NULL)
+      {
+        printf("\nPreOrder sequence:\n");
+        preorder(root);
+        printf("\n\nInOrder sequence:\n");
+        inorder(root);
+        printf("\n\nPostOrder sequence:\n");
+        postorder(root);
+        printf("\n");
+      }
+      else
+      {
+        printf("\n\nEmpty List\n\n");
+      }
       break;
     }
   } while (op != 5);
@@ -107,6 +114,7 @@ node *Delete(node *T, int x)
   node *p;
   if (T == NULL)
   {
+    printf("\nEmpty List\n\n");
     return NULL;
   }
   else if (x > T->data) // insert in right subtree
@@ -243,6 +251,13 @@ void preorder(node *T)
     preorder(T->left);
     preorder(T->right);
   }
+  else
+  {
+    if (T == NULL)
+    {
+      printf("Empty List");
+    }
+  }
 }
 
 void inorder(node *T)
@@ -253,6 +268,13 @@ void inorder(node *T)
     printf("%d(Bf=%d)", T->data, BF(T));
     inorder(T->right);
   }
+  else
+  {
+    if (T == NULL)
+    {
+      printf("Empty List");
+    }
+  }
 }
 
 void postorder(node *T)
@@ -262,5 +284,12 @@ void postorder(node *T)
     postorder(T->left);
     postorder(T->right);
     printf("%d(BF=%d)", T->data, BF(T));
+  }
+  else
+  {
+    if (T == NULL)
+    {
+      printf("Empty List");
+    }
   }
 }
