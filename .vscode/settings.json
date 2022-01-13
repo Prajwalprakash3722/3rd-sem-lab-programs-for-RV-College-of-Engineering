@@ -1,6 +1,11 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "stdlib.h": "c"
+        "*.ipynb": "python",
+        "stdlib.h": "c",
+        "semaphore.h": "c",
+        "stdio.h": "c",
+        "stat.h": "c",
+        "pwd.h": "c"
     }
 }
