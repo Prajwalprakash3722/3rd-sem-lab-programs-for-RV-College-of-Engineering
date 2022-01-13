@@ -11,6 +11,7 @@ node *insert(node *, int);
 node *Delete(node *, int);
 void preorder(node *);
 void inorder(node *);
+void postorder(node *);
 int height(node *);
 node *rotateright(node *);
 node *rotateleft(node *);
@@ -57,10 +58,12 @@ int main()
       root = Delete(root, x);
       break;
     case 4:
-      printf("\nPreorder sequence:\n");
+      printf("\nPreOrder sequence:\n");
       preorder(root);
-      printf("\n\nInorder sequence:\n");
+      printf("\n\nInOrder sequence:\n");
       inorder(root);
+      printf("\n\nPostOrder sequence:\n");
+      postorder(root);
       printf("\n");
       break;
     }
@@ -249,5 +252,15 @@ void inorder(node *T)
     inorder(T->left);
     printf("%d(Bf=%d)", T->data, BF(T));
     inorder(T->right);
+  }
+}
+
+void postorder(node *T)
+{
+  if (T != NULL)
+  {
+    postorder(T->left);
+    postorder(T->right);
+    printf("%d(BF=%d)", T->data, BF(T));
   }
 }
