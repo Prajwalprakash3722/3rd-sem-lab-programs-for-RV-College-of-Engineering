@@ -251,13 +251,6 @@ void preorder(node *T)
     preorder(T->left);
     preorder(T->right);
   }
-  else
-  {
-    if (T == NULL)
-    {
-      printf("Empty List");
-    }
-  }
 }
 
 void inorder(node *T)
@@ -268,13 +261,6 @@ void inorder(node *T)
     printf("%d(Bf=%d)", T->data, BF(T));
     inorder(T->right);
   }
-  else
-  {
-    if (T == NULL)
-    {
-      printf("Empty List");
-    }
-  }
 }
 
 void postorder(node *T)
@@ -284,12 +270,5 @@ void postorder(node *T)
     postorder(T->left);
     postorder(T->right);
     printf("%d(BF=%d)", T->data, BF(T));
-  }
-  else
-  {
-    if (T == NULL)
-    {
-      printf("Empty List");
-    }
   }
 }
