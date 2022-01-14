@@ -73,6 +73,9 @@ int main()
         printf("\n\nEmpty List\n\n");
       }
       break;
+    default:
+      printf("\n\nError Input\n\n");
+      break;
     }
   } while (op != 5);
   return 0;
@@ -155,7 +158,6 @@ node *Delete(node *T, int x)
       return (T->left);
   }
   T->ht = height(T);
-  printf("Successful Deletion\n");
   return (T);
 }
 
