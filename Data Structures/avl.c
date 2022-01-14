@@ -117,7 +117,7 @@ node *Delete(node *T, int x)
     printf("\nEmpty List\n\n");
     return NULL;
   }
-  else if (x > T->data) // insert in right subtree
+  if (x > T->data) // insert in right subtree
   {
     T->right = Delete(T->right, x);
     if (BF(T) == 2)
@@ -155,6 +155,7 @@ node *Delete(node *T, int x)
       return (T->left);
   }
   T->ht = height(T);
+  printf("Successful Deletion\n");
   return (T);
 }
 
